@@ -1,6 +1,6 @@
 # DL and GenAI Project [BSDA2001P] –dl-genai-project-26-t2
 # Project title - Smart MCQ Solver Challenge
-# Nmae: VENKATA SURYAMITRA
+# Name: VENKATA SURYAMITRA
 # ID: 23f2003050
 # Folder structure
 
