@@ -1,0 +1,73 @@
+# ==============================================================================
+# GIT IGNORE CONFIGURATION — DL & GENAI PROJECT
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook & Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyTorch / Transformer Weights & Model Checkpoints
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+checkpoint-*/
+models/
+saved_models/
+
+# Datasets & Large CSV Files (Keep repo lightweight)
+data/*.csv
+*.csv
+!data/sample_submission.csv
+
+# Weights & Biases (W&B) Logs
+wandb/
+catboost_info/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
